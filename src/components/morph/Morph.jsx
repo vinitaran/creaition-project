@@ -28,6 +28,9 @@ const Morph = () => {
         <div class="v2"></div>
       </div>
       <div className="morph__output__box">
+        <div className="morph__output__line">
+            
+        </div>
         {outputImages.map((image) => {
           return (
             <div

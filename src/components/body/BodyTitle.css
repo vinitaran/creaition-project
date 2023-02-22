@@ -1,0 +1,16 @@
+.bodyTitle__heading, .bodyTitle__subheading{
+    display: flex;
+    justify-content: center;
+}
+
+.bodyTitle p{
+    font-size: 80px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .bodyTitle p {
+        font-size: 2em;
+    }
+  }
